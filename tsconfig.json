@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ES2018",
+    "module": "CommonJS",
+    "lib": [
+      "ES2020",
+      "ES2020.BigInt",
+      "ES2020.Promise",
+      "ES2020.String",
+      "ES2020.Symbol.WellKnown"
+    ],
+    "outDir": "./build",
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "noImplicitThis": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "declaration": true,
+    "resolveJsonModule": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true
+  },
+  "exclude": ["./build"]
+}
